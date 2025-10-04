@@ -1,7 +1,11 @@
+# Librerías principales
 streamlit>=1.20
 pandas
 numpy
-scikit-learn
 plotly
 matplotlib
 seaborn
+scikit-learn
+
+# Exportación de reportes
+reportlab
