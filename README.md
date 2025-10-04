@@ -1,35 +1,49 @@
 # MIA09-trabajo-final
 # Visualización Interactiva de Datos (Streamlit)
 
-**Proyecto final** — Aplicación en Streamlit para carga, exploración y visualización interactiva de datasets.
+**Proyecto Final — Maestría en Inteligencia Artificial Aplicada**
 
-## Descripción
-Aplicación en **Streamlit** que permite a usuarios:
-- Cargar datasets (CSV / Excel).
-- Realizar análisis exploratorio (EDA): vista previa, tipos, nulos y estadísticas.
-- Generar visualizaciones interactivas: histogramas, boxplots, scatter, barras, heatmap de correlación.
-- Ejecutar PCA interactivo.
-- Exportar resultados: dataset filtrado (.csv), figuras (.png) y reporte PDF con resumen y gráficas.
+Aplicación desarrollada en **Streamlit** que permite la **carga, exploración y visualización interactiva de datasets**.  
+El propósito de este proyecto es demostrar la integración de análisis exploratorio de datos (EDA), visualización interactiva y exportación de reportes automatizados en una herramienta web accesible y moderna.
 
-## Funcionalidades principales
-- Carga de `.csv` y `.xlsx`.
-- Estadísticas descriptivas y manejo básico de nulos.
-- Filtros dinámicos por columnas (numéricas y categóricas).
-- Visualizaciones con Plotly y Matplotlib/Seaborn.
-- Generación automática de reporte PDF (reportlab).
-- Descarga de dataset procesado y de figuras.
+---
 
-## Requisitos
-- Python 3.8+
-- pip
+## 🎯 Descripción General
 
-## Instalación local
-```bash
-git clone <repo-url>
-cd <repo-folder>
-python -m venv .venv
-# macOS / Linux
-source .venv/bin/activate
-# Windows
-.venv\Scripts\activate
-pip install -r requirements.txt
+Esta aplicación está diseñada para facilitar el análisis y comprensión de datos mediante visualizaciones dinámicas y herramientas estadísticas básicas.  
+Entre sus principales funcionalidades se incluyen:
+
+- Carga de archivos en formato **CSV** y **Excel (.xlsx)**.  
+- Exploración de datos (vista previa, tipos de columnas, valores nulos y estadísticas descriptivas).  
+- Filtros interactivos por columnas numéricas o categóricas.  
+- Visualizaciones gráficas con **Plotly**, **Matplotlib** y **Seaborn**:
+  - Histogramas  
+  - Boxplots  
+  - Diagramas de dispersión  
+  - Gráficos de barras  
+  - Mapas de calor de correlaciones  
+- Análisis de Componentes Principales (**PCA**) con visualización interactiva.  
+- Exportación de resultados:
+  - Dataset filtrado en formato `.csv`
+  - Figuras en formato `.png`
+  - Reporte completo en formato **PDF** (generado automáticamente con ReportLab)
+
+---
+
+## ⚙️ Requisitos del Sistema
+
+- **Python:** versión 3.8 o superior  
+- **Gestor de paquetes:** `pip`
+
+Dependencias principales:  
+`streamlit`, `pandas`, `numpy`, `plotly`, `matplotlib`, `seaborn`, `scikit-learn`, `reportlab`
+
+---
+
+## 🧩 Instalación Local
+
+1. Clonar el repositorio desde GitHub:
+   ```bash
+   git clone <repo-url>
+   cd <repo-folder>
+
