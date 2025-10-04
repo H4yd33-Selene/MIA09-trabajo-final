@@ -77,7 +77,7 @@ Si deseas correr la app directamente en Google Colab, sigue estos pasos:
    !ngrok config add-authtoken 33WpC1TrgkPlR8iOSebYph6YoZ8_3xsdkocSLK1fdABNfVDoT
 3. Crea el archivo app.py dentro de Colab:
    %%writefile app.py
-   # (pega aquí el código completo de tu aplicación Streamlit)
+   (pega aquí el código completo de la aplicación Streamlit)
 4. Ejecuta la aplicación:
    public_url = ngrok.connect(8501)
    print("URL pública:", public_url)
